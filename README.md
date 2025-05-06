@@ -22,16 +22,16 @@ Bu proje, **C# Windows Forms** kullanılarak geliştirilmiş bir **Araç Kiralam
 ## 🖼️ Uygulama İçi Ekran Görüntüleri
 
 - **Giriş Ekranı**  
-![1](1.png)
+  ![1](1.png)
 
 - **Araç Listesi**  
-![2](2.png)
+  ![2](2.png)
 
 - **Araç Detay**  
-![3](3.png)
+  ![3](3.png)
 
 - **Kiralama Seçenekleri**  
-![4](4.png)
+  ![4](4.png)
 
 - **Ödeme**  
-![5](5.png)
+  ![5](5.png)
