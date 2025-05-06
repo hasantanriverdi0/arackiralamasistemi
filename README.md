@@ -1,15 +1,13 @@
 # 🚗 Araç Kiralama Sistemi
 
-Bu proje, **C# Windows Forms** kullanılarak geliştirilmiş bir **Araç Kiralama Otomasyonu** uygulamasıdır. Kullanıcılar, sistem üzerinden araçları listeleyebilir, kiralama işlemleri başlatabilir, bitirebilir ve araç ekleme/silme/güncelleme gibi işlemleri yapabilir. Proje eğitim amaçlıdır.
+Bu proje, **C# Windows Forms** kullanılarak geliştirilmiş bir **Araç Kiralama Otomasyonu** uygulamasıdır. Kullanıcılar, sistem üzerinden mevcut araçları listeleyebilir, araç detaylarını görüntüleyebilir, kiralama işlemleri başlatabilir ve ödeme yaparak araç kiralayabilir. Proje eğitim amaçlıdır.
 
 ## 🧩 Özellikler
 
-- Admin girişi ile kullanıcı doğrulama
-- Araç ekleme, silme ve güncelleme
-- Araçların uygunluk durumunu kontrol etme
-- Araç kiralama işlemini başlatma ve tamamlama
-- Müşteri bilgilerini kaydetme
-- Kiralama tarih bilgisi takibi
+- Mevcut araçları listeleme
+- Araç detaylarını görüntüleme
+- Araç kiralama işlemi başlatma
+- Ödeme yapma
 - Basit ve kullanıcı dostu arayüz
 
 ## 🛠️ Kullanılan Teknolojiler
