@@ -19,8 +19,19 @@ Bu proje, **C# Windows Forms** kullanılarak geliştirilmiş bir **Araç Kiralam
 - Visual Studio
 - (Opsiyonel: JSON, XML ya da SQL Server ile veri saklama)
 
-## 🚀 Kurulum ve Kullanım
+## 🖼️ Uygulama İçi Ekran Görüntüleri
 
-1. Bu projeyi GitHub'dan indir veya klonla:
-   ```bash
-   git clone https://github.com/hasantanriverdi0/arackiralamasistemi.git
+- **Giriş Ekranı**  
+![1](1.png)
+
+- **Araç Listesi**  
+![2](2.png)
+
+- **Araç Detay**  
+![3](3.png)
+
+- **Kiralama Seçenekleri**  
+![4](4.png)
+
+- **Ödeme**  
+![5](5.png)
