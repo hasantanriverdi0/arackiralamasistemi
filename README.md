@@ -22,18 +22,5 @@ Bu proje, **C# Windows Forms** kullanılarak geliştirilmiş bir **Araç Kiralam
 ## 🚀 Kurulum ve Kullanım
 
 1. Bu projeyi GitHub'dan indir veya klonla:
-2. Visual Studio ile `AracKiralama.sln` dosyasını aç.
-3. Projeyi çalıştırmak için `F5` tuşuna bas.
-4. Giriş formundan kullanıcı adı ve şifre girerek sistemi başlat.
-
-## 📁 Klasör Yapısı
-
-├── AracKiralama.sln
-├── README.md
-├── 1.png
-├── 2.png
-├── 3.png
-├── 4.png
-├── 5.png
-├── /Forms
-├── /Resources
+   ```bash
+   git clone https://github.com/hasantanriverdi0/arackiralamasistemi.git
