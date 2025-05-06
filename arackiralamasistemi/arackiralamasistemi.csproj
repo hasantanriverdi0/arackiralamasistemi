@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20C66718-9457-45D9-A66F-8BE34895A30B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>arackiralamasistemi</RootNamespace>
+    <AssemblyName>arackiralamasistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audia3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="audia3.Designer.cs">
+      <DependentUpon>audia3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="audirs7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="audirs7.Designer.cs">
+      <DependentUpon>audirs7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hondaaccord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hondaaccord.Designer.cs">
+      <DependentUpon>hondaaccord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiaforte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiaforte.Designer.cs">
+      <DependentUpon>kiaforte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiaxceed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiaxceed.Designer.cs">
+      <DependentUpon>kiaxceed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralaaudia3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralaaudia3.Designer.cs">
+      <DependentUpon>kiralaaudia3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralaaudirs7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralaaudirs7.Designer.cs">
+      <DependentUpon>kiralaaudirs7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralahondaaccord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralahondaaccord.Designer.cs">
+      <DependentUpon>kiralahondaaccord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralakiaforte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralakiaforte.Designer.cs">
+      <DependentUpon>kiralakiaforte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralakiaxceed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralakiaxceed.Designer.cs">
+      <DependentUpon>kiralakiaxceed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralamaekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralamaekrani.Designer.cs">
+      <DependentUpon>kiralamaekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kiralatoyotacorolla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiralatoyotacorolla.Designer.cs">
+      <DependentUpon>kiralatoyotacorolla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="toyotacorolla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="toyotacorolla.Designer.cs">
+      <DependentUpon>toyotacorolla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ödemeekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ödemeekrani.Designer.cs">
+      <DependentUpon>ödemeekrani.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="audia3.resx">
+      <DependentUpon>audia3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="audirs7.resx">
+      <DependentUpon>audirs7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hondaaccord.resx">
+      <DependentUpon>hondaaccord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiaforte.resx">
+      <DependentUpon>kiaforte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiaxceed.resx">
+      <DependentUpon>kiaxceed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralaaudia3.resx">
+      <DependentUpon>kiralaaudia3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralaaudirs7.resx">
+      <DependentUpon>kiralaaudirs7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralahondaaccord.resx">
+      <DependentUpon>kiralahondaaccord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralakiaforte.resx">
+      <DependentUpon>kiralakiaforte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralakiaxceed.resx">
+      <DependentUpon>kiralakiaxceed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralamaekrani.resx">
+      <DependentUpon>kiralamaekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kiralatoyotacorolla.resx">
+      <DependentUpon>kiralatoyotacorolla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="toyotacorolla.resx">
+      <DependentUpon>toyotacorolla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ödemeekrani.resx">
+      <DependentUpon>ödemeekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
