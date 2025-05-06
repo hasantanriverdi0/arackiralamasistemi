@@ -28,14 +28,12 @@ Bu proje, **C# Windows Forms** kullanılarak geliştirilmiş bir **Araç Kiralam
 
 ## 📁 Klasör Yapısı
 
-```plaintext
 ├── AracKiralama.sln
 ├── README.md
-├── /img
-│   ├── 1.png
-│   ├── 2.png
-│   ├── 3.png
-│   ├── 4.png
-│   └── 5.png
+├── 1.png
+├── 2.png
+├── 3.png
+├── 4.png
+├── 5.png
 ├── /Forms
 ├── /Resources
